@@ -36,7 +36,7 @@ Springboot+mybatis+pageHelper+genterator
 ("')
 
 2.genertorConfig.xml:
-("')
+(''')
         <?xml version="1.0" encoding="UTF-8"?>
         <!DOCTYPE generatorConfiguration
             PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
@@ -77,4 +77,4 @@ Springboot+mybatis+pageHelper+genterator
                 <table tableName="t_test" domainObjectName="TTest" enableCountByExample="false" enableUpdateByExample="false"                               enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
             </context>
         </generatorConfiguration>
-("')
+(''')
