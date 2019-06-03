@@ -3,7 +3,7 @@ Springboot+mybatis+pageHelper+genterator
 
 ## 注意
 1.generator的版本可以在pom.xml中配置如:</br>
-("')
+```
     <build>
         <plugins>
             <plugin>
@@ -33,10 +33,10 @@ Springboot+mybatis+pageHelper+genterator
             </plugin>
         </plugins>
     </build>
-("')
+```
 
 2.genertorConfig.xml:</br>
-(''')
+```
         <?xml version="1.0" encoding="UTF-8"?>
         <!DOCTYPE generatorConfiguration
             PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
@@ -77,4 +77,4 @@ Springboot+mybatis+pageHelper+genterator
                 <table tableName="t_test" domainObjectName="TTest" enableCountByExample="false" enableUpdateByExample="false"                               enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
             </context>
         </generatorConfiguration>
-(''')
+```
