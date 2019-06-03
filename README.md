@@ -2,7 +2,7 @@
 Springboot+mybatis+pageHelper+genterator
 
 ## 注意
-1.generator的版本可以在pom.xml中配置如:
+1.generator的版本可以在pom.xml中配置如:</br>
 ("')
     <build>
         <plugins>
@@ -35,7 +35,7 @@ Springboot+mybatis+pageHelper+genterator
     </build>
 ("')
 
-2.genertorConfig.xml:
+2.genertorConfig.xml:</br>
 (''')
         <?xml version="1.0" encoding="UTF-8"?>
         <!DOCTYPE generatorConfiguration
