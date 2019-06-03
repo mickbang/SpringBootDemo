@@ -34,9 +34,10 @@ Springboot+mybatis+pageHelper+genterator
         </plugins>
     </build>
 ("')
-2.genertorConfig.xml
+
+2.genertorConfig.xml:
 ("')
-            <?xml version="1.0" encoding="UTF-8"?>
+        <?xml version="1.0" encoding="UTF-8"?>
         <!DOCTYPE generatorConfiguration
             PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
             "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
